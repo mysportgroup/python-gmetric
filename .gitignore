@@ -1,1 +1,7 @@
 .*.sw*
+*.pyc
+*.pyo
+*.swp
+.idea
+*.tmp
+*.bak
