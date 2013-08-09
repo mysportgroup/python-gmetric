@@ -322,3 +322,5 @@ if __name__ == '__main__':
         options.group,
         options.spoof
     )
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
