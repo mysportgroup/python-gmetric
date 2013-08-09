@@ -22,5 +22,4 @@ Depends: ${python:Depends}, python-gmetric(=${source:Version})
 Description: python lib and cmd tool for gmetric (ganglia).
  A python lib and cmd tool for gmetric (ganglia)
  .
- This is the binary package for pygmetric
-
+ This is the binary package for the pygmetric call
