@@ -1,17 +1,6 @@
-This is the official repository for hosting all other user-contributed tools and programs.
+This is not the official ganglia repository.
+This is just a python lib and cmd tool simply striped out from:
 
-To have your programs added here, please fork the repository, create separate sub-directories for each program 
-and submit a pull request.
+    https://github.com/ganglia/ganglia_contrib.git
 
-If you have any questions, you could reach us at:
-
-ganglia-developers@lists.sourceforge.net
-
-(subscription required: http://lists.sourceforge.net/lists/listinfo/ganglia-developers)
-
-Alternatively, you could join our IRC channel on irc.freenode.net #ganglia and
-ping one of the developers.
-
-Thank you for your contribution!
-
-  -- Ganglia Development Team
+Thanks the ganglia dev team for their good work!

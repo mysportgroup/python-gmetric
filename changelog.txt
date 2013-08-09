@@ -1,0 +1,15 @@
+2013-08-09 Robin Wittler <r.wittler@mysportgroup.de>:
+
+    * reformat code to be more eye-candy ;)
+    * Let the Gmetric Class inherit from object
+    * rename the "type" Gmetric Class attribute to "types",
+      which is more secure (can not be missinterpreted
+      with the builtin "type" call).
+    * changes Exceptions to use string formatiing and uses ', '.join()
+      to concate list entries.
+    * use ' for strings insted of " (which is just a personal choice)
+    * using "if not NAME" insted of "if len(NAME) == 0"
+    * fix a bug with self.slope.keys() which does not exists in Gmetric.send
+    * refactor everything to fullfil the 80 chars per line limit
+    * add short args to OptionParser (where possible)
+    * add a version string (usable for gmetric --version)
