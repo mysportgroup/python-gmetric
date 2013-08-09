@@ -1,0 +1,26 @@
+Source: python-gmetric
+Maintainer: Robin Wittler <r.wittler@mysportgroup.de>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+X-Python-Version: >= 2.6, << 3.0
+Vcs-git: https://github.com/robin-wittler/python-gmetric
+Vcs-Browser: https://github.com/robin-wittler/python-gmetric
+Standards-Version: 3.9.1
+
+Package: python-gmetric
+Architecture: all
+Depends: ${python:Depends}
+Description: python lib and cmd tool for gmetric (ganglia).
+ A python lib and cmd tool for gmetric (ganglia)
+ .
+ This is the library package for python-gmetric
+
+Package: pygmetric
+Architecture: all
+Depends: ${python:Depends}, python-gmetric(=${source:Version})
+Description: python lib and cmd tool for gmetric (ganglia).
+ A python lib and cmd tool for gmetric (ganglia)
+ .
+ This is the binary package for pygmetric
+
