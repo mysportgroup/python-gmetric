@@ -20,7 +20,7 @@ set -e
 
 case "$1" in
     configure)
-        chmod a+rx /usr/share/pyshared/python-gmetric/gmetric.py
+        chmod a+rx /usr/share/pyshared/pygmetric/gmetric.py
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
