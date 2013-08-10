@@ -63,7 +63,7 @@ slope_int2str = {
 
 class Gmetric(object):
     '''
-    Class to send gmetric/gmond 2.X packets
+    Class to send gmetric/gmond 2.X/3.X packets
 
     Thread safe
     '''
