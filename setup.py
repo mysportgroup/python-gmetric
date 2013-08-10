@@ -15,7 +15,7 @@ setup(
         maintainer_email='r.wittler@mysportgroup.de',
         license='GPL3+',
         url='https://github.com/robin-wittler/python-gmetric',
-        packages=['python-gmetric'],
+        packages=['pygmetric'],
         platforms='POSIX',
 )
 
